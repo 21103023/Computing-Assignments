@@ -30,8 +30,10 @@ if 1<=day<=31 and 1<=month<=12 and 1800<=year<=2025 :
          elif month!=2:
               if 1<=day<=29:
                  print(f"The next date: {day+1}/{month}/{year}")
-              else:
+              elif day==30:
                  print(f"The next date: 01/{month+1}/{year}")
+              else:
+                print("Invalid date input!!")
          else:
               if 1<=day<=27:
                  print(f"The next date: {day+1}/{month}/{year}")
