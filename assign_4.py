@@ -55,10 +55,14 @@ if II_no!=0 :
     qut, rem=divmod(I_no, II_no)
     print(f"Quotient obtained={qut}\nReminder obtained={rem:.2f}")
     #b)
-    if (qut, rem)!=(0,0):
-        print("Values are non-zero.\n")
-    else:
+    if qut==0 :
+        print("Quotient is zero")
+    elif rem==0 :
+        print("Reminder is zero")
+    elif (qut, rem)==(0,0):
         print("Values are zero.\n")
+    else:
+        print("Values are non-zero.\n")
     #c)
     lt=(qut, rem)+(4, 5, 6)
     print(lt)
