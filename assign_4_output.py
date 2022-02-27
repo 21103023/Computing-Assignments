@@ -32,7 +32,7 @@ Enter the second number:46
 Function is callable.
 Quotient obtained=1.0
 Reminder obtained=21.00
-Values are non-zero.
+Values are non-zero
 
 (1.0, 21.0, 4, 5, 6)
 
