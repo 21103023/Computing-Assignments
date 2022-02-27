@@ -56,16 +56,18 @@ if II_no!=0 :
     print(f"Quotient obtained={qut}\nReminder obtained={rem:.2f}")
     #b)
     if qut==0 :
-        print("Quotient is zero.")
+        
         if rem==0 :
             print("Both value are zero.")
         else:
-            print("Reminder is zero.")
+            print("Quotient is zero.")
+            print("Reminder is non-zero.")
     else:
-        print("Quotient is non-zero")
+        
         if rem!=0 :
             print("Both values are non-zero.")
         else :
+            print("Quotient is non-zero")
             print("Reminder is zero.")
     #c)
     lt=(qut, rem)+(4, 5, 6)
