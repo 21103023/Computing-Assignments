@@ -57,7 +57,7 @@ if II_no!=0 :
     #b)
     if qut==0 :
         print("Quotient is zero")
-    elif rem==0 :
+    if rem==0 :
         print("Reminder is zero")
     elif (qut, rem)==(0,0):
         print("Values are zero.\n")
