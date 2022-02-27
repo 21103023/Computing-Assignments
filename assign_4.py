@@ -65,7 +65,7 @@ if II_no!=0 :
     else:
         
         if rem!=0 :
-            print("Both values are non-zero.")
+            print("Values are non-zero")
         else :
             print("Quotient is non-zero")
             print("Reminder is zero.")
